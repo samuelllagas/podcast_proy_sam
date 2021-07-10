@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <title>Css Navbar</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="css/style.css">
+   <!--letras-->
+   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&family=IBM+Plex+Sans:wght@500&display=swap"
+      rel="stylesheet">
+
+</head>
+
+<body>
+   <header class="header">
+      <div class="container">
+         <div class="row align-items-center justify-content-between">
+            <div class="logo">
+               <a href="#"><img src="assets/logo.svg" alt=""></a>
+            </div>
+            <input type="checkbox" id="nav-check">
+            <label for="nav-check" class="nav-toggler">
+               <span></span>
+            </label>
+            <nav class="nav">
+               <ul>
+                  <li><a href="#episodios" class="">episodios</a></li>
+                  <li><a href="#entrevistas">entrevistas</a></li>
+                  <li><a href="#nosotros">nosotros</a></li>
+                  <li><a href="#topicos">topicos</a></li>
+               </ul>
+            </nav>
+         </div>
+      </div>
+   </header>
+
+
+   <div class="principal">
+      <div class="tittle">Hello <span class="through">world</span> pale blue dot<span class="blueP">.</span></div>
+      <div class="description">El portal de postcasts que explora el mundo de la programación y
+         la tecnología. Nuevos episodios, todos los jueves cada 15 días.
+      </div>
+
+      <button class="button_cnm">CONOCE MAS</button>
+
+   </div>
+
+   <div class="episodios_bg" name"episodios" id"episodios">
+      <div class="episodios">
+         Episodios
+      </div>
+      <div class="iframes">
+         <div class="i_container1">
+            <iframe class="i_padd" src="https://open.spotify.com/embed/episode/0P706kDWl3kKTtddPtVP1T" width="100%" height="232"
+               frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="i_padd" class="mrg" src="https://open.spotify.com/embed/episode/1eDVUn3P1rIu4GzIBnNL4j" width="100%" height="232"
+               frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+         </div>
+         <div class="i_container2">
+            <iframe class="i_padd" src="https://open.spotify.com/embed/episode/2sFcQw126RKnT5vbxeGV3m" width="100%" height="232"
+               frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="i_padd" class="mrg" src="https://open.spotify.com/embed/episode/0YmfSUKx185aO4jZSN8DI1" width="100%" height="232"
+                    frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+         </div>
+      </div>
+   </div>
+
+   <div class="nosotros" name="nosotros" id="nosotros">
+      <div class="phone">
+         <img src="images/phone.png" alt="">
+      </div>
+
+      <div class="nosDescription">
+         <div class="deDondeVenimos">
+            De donde venimos
+         </div>
+         <div class="ourPosturings">
+            <p>
+               Our posturings, our imagined self-importance, the delusion that we have some privileged position in the
+               Universe, are
+               challenged by this point of pale light.
+            </p>
+            <p>
+               Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness,
+               there is no
+               hint that help will come from elsewhere to save us from ourselves.
+            </p>
+
+         </div>
+      </div>
+   </div>
+
+
+   <div class="invitadas" name="entrevistas" id="entrevistas">
+      <span class="invi_tittle">Invitadas/os estelares</span>
+      <div class="imgline1">
+         <div class="img1"><img src="images/An E.R.A.Univac 1103 computer in the 1950s.png" alt=""></div>
+         <div class="img2"><img
+               src="images/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png"
+               alt=""></div>
+         <div class="img3"><img src="images/grace-hopper.png" alt=""></div>
+      </div>
+      <div class="imgline1">
+         <div class="img1"><img src="images/Katie-Bouman.png" alt=""></div>
+         <div class="img2"><img src="images/Margaret_Hamilton.png" alt=""></div>
+         <div class="img3"><img src="images/susan-kare.png" alt=""></div>
+      </div>
+   </div>
+
+   <div class="temas" name="topicos" id="topicos"> 
+      <div class="tTittle">Algunos de nuestros temas</div>
+      <div class="icons-area">
+         <div class="iconArea1 pd">
+            <div class="logo"><img src="images/icon1.svg" alt=""></div>
+            <div class="logDescription">Trabajo remoto</div>
+         </div>
+         <div class="iconArea2 pd ">
+            <div class="logo"><img src="images/icon2.svg" alt=""></div>
+            <div class="logDescription">Repensando la programación</div>
+         </div>
+         <div class="iconArea3 pd">
+            <div class="logo"><img src="images/icon3.svg" alt=""></div>
+            <div class="logDescription">Bases del código</div>
+         </div>
+         <div class="iconArea4 pd">
+            <div class="logo"><img src="images/icon4.svg" alt=""></div>
+            <div class="logDescription">Seguridad informática</div>
+         </div>
+      </div>
+   </div>
+
+   <div class="bgNovedades">
+      <div class="novedades">
+         <div class="novTittle">¿Querés las últimas novedades?</div>
+         <button class="">ESCUCHÁ LOS EPISODIOS</button>
+      </div>
+   </div>
+
+
+
+   <footer>
+      <div class="fTexto">© 2021 — Hello blue pale dot</div>
+      <div class="fLogos">
+
+         <div class="spotifyA footerLogo">
+            <svg style="fill:currentColor;" id="Bold" enable-background="new 0 0 24 24" height="512" viewBox="0 0 24 24"
+               width="512" xmlns="http://www.w3.org/2000/svg">
+               <path
+                  d="m12 24c6.624 0 12-5.376 12-12s-5.376-12-12-12-12 5.376-12 12 5.376 12 12 12zm4.872-6.344v.001c-.807 0-3.356-2.828-10.52-1.36-.189.049-.436.126-.576.126-.915 0-1.09-1.369-.106-1.578 3.963-.875 8.013-.798 11.467 1.268.824.526.474 1.543-.265 1.543zm1.303-3.173c-.113-.03-.08.069-.597-.203-3.025-1.79-7.533-2.512-11.545-1.423-.232.063-.358.126-.576.126-1.071 0-1.355-1.611-.188-1.94 4.716-1.325 9.775-.552 13.297 1.543.392.232.547.533.547.953-.005.522-.411.944-.938.944zm-13.627-7.485c4.523-1.324 11.368-.906 15.624 1.578 1.091.629.662 2.22-.498 2.22l-.001-.001c-.252 0-.407-.063-.625-.189-3.443-2.056-9.604-2.549-13.59-1.436-.175.048-.393.125-.625.125-.639 0-1.127-.499-1.127-1.142 0-.657.407-1.029.842-1.155z" />
+            </svg>
+         </div>
+
+         <div class="instagramA footerLogo">
+            <svg style="fill:currentColor;" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+               xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="169.063px" height="169.063px"
+               viewBox="0 0 169.063 169.063" style="enable-background:new 0 0 169.063 169.063;" xml:space="preserve">
+               <g>
+                  <path d="M122.406,0H46.654C20.929,0,0,20.93,0,46.655v75.752c0,25.726,20.929,46.655,46.654,46.655h75.752
+                     		c25.727,0,46.656-20.93,46.656-46.655V46.655C169.063,20.93,148.133,0,122.406,0z M154.063,122.407
+                     		c0,17.455-14.201,31.655-31.656,31.655H46.654C29.2,154.063,15,139.862,15,122.407V46.655C15,29.201,29.2,15,46.654,15h75.752
+                     		c17.455,0,31.656,14.201,31.656,31.655V122.407z" />
+                  <path
+                     d="M84.531,40.97c-24.021,0-43.563,19.542-43.563,43.563c0,24.02,19.542,43.561,43.563,43.561s43.563-19.541,43.563-43.561
+                     		C128.094,60.512,108.552,40.97,84.531,40.97z M84.531,113.093c-15.749,0-28.563-12.812-28.563-28.561
+                     		c0-15.75,12.813-28.563,28.563-28.563s28.563,12.813,28.563,28.563C113.094,100.281,100.28,113.093,84.531,113.093z" />
+                  <path d="M129.921,28.251c-2.89,0-5.729,1.17-7.77,3.22c-2.051,2.04-3.23,4.88-3.23,7.78c0,2.891,1.18,5.73,3.23,7.78
+                     		c2.04,2.04,4.88,3.22,7.77,3.22c2.9,0,5.73-1.18,7.78-3.22c2.05-2.05,3.22-4.89,3.22-7.78c0-2.9-1.17-5.74-3.22-7.78
+                     		C135.661,29.421,132.821,28.251,129.921,28.251z" />
+            </svg>
+         </div>
+
+         <div class="twitterA footerLogo">
+            <svg style="fill:currentColor;" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+               xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512"
+               style="enable-background:new 0 0 512 512;" xml:space="preserve">
+               <g>
+                  <g>
+                     <path style="fill:currentColor;" d="M512,97.248c-19.04,8.352-39.328,13.888-60.48,16.576c21.76-12.992,38.368-33.408,46.176-58.016
+                     			c-20.288,12.096-42.688,20.64-66.56,25.408C411.872,60.704,384.416,48,354.464,48c-58.112,0-104.896,47.168-104.896,104.992
+                     			c0,8.32,0.704,16.32,2.432,23.936c-87.264-4.256-164.48-46.08-216.352-109.792c-9.056,15.712-14.368,33.696-14.368,53.056
+                     			c0,36.352,18.72,68.576,46.624,87.232c-16.864-0.32-33.408-5.216-47.424-12.928c0,0.32,0,0.736,0,1.152
+                     			c0,51.008,36.384,93.376,84.096,103.136c-8.544,2.336-17.856,3.456-27.52,3.456c-6.72,0-13.504-0.384-19.872-1.792
+                     			c13.6,41.568,52.192,72.128,98.08,73.12c-35.712,27.936-81.056,44.768-130.144,44.768c-8.608,0-16.864-0.384-25.12-1.44
+                     			C46.496,446.88,101.6,464,161.024,464c193.152,0,298.752-160,298.752-298.688c0-4.64-0.16-9.12-0.384-13.568
+                     			C480.224,136.96,497.728,118.496,512,97.248z" />
+                  </g>
+               </g>
+            </svg>
+         </div>
+
+         <div class="fbA footerLogo">
+            <svg style="fill:currentColor;" class="fb" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+               xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 167.657 167.657"
+               style="enable-background:new 0 0 167.657 167.657;" xml:space="preserve">
+               <g>
+                  <path style="fill:currentColor;" d="M83.829,0.349C37.532,0.349,0,37.881,0,84.178c0,41.523,30.222,75.911,69.848,82.57v-65.081H49.626
+                     		v-23.42h20.222V60.978c0-20.037,12.238-30.956,30.115-30.956c8.562,0,15.92,0.638,18.056,0.919v20.944l-12.399,0.006
+                     		c-9.72,0-11.594,4.618-11.594,11.397v14.947h23.193l-3.025,23.42H94.026v65.653c41.476-5.048,73.631-40.312,73.631-83.154
+                     		C167.657,37.881,130.125,0.349,83.829,0.349z" />
+            </svg>
+         </div>
+
+         <div class="telegramA footerLogo">
+            <svg style="fill:currentColor;" id="Bold" enable-background="new 0 0 24 24" height="512" viewBox="0 0 24 24"
+               width="512" xmlns="http://www.w3.org/2000/svg">
+               <path
+                  d="m12 24c6.629 0 12-5.371 12-12s-5.371-12-12-12-12 5.371-12 12 5.371 12 12 12zm-6.509-12.26 11.57-4.461c.537-.194 1.006.131.832.943l.001-.001-1.97 9.281c-.146.658-.537.818-1.084.508l-3-2.211-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.121l-6.871 4.326-2.962-.924c-.643-.204-.657-.643.136-.953z" />
+            </svg>
+         </div>
+
+      </div>
+   </footer>
+
+
+</body>
+
+</html>
