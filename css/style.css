@@ -1,5 +1,5 @@
 :root {
-  --color-1: #673ab7;
+  --color-1: #141316;
   --color-2: #060a24;
   --color-3: #00f3bb;
   --color-4: #0000ec;
@@ -280,8 +280,7 @@ ul {
   color: white;
   font-family: "IBM Plex Sans", sans-serif;
 }
-.novButton {
-}
+
 .novedades button {
   border: none;
   background-color: #00f3bb;
@@ -357,11 +356,7 @@ footer {
     opacity: 1;
     visibility: visible;
   }
-  .header #nav-check:focus ~ .nav-toggler {
-    /*
-     box-shadow: 0 0 15px #000000;
-     */
-  }
+
   .header .nav ul li a:hover {
     color: currentColor;
     text-decoration-line: none;
@@ -435,9 +430,6 @@ footer {
   }
 
   /*iframes***********************************************/
-  .iframes {
-
-  }
 
   .i_container1 {
     display: flex;
@@ -576,8 +568,7 @@ footer {
     color: white;
     font-family: "IBM Plex Sans", sans-serif;
   }
-  .novButton {
-  }
+  
   .novedades button {
     border: none;
     background-color: #00f3bb;
@@ -599,10 +590,11 @@ footer {
     max-width: 100vw;
     flex-direction: column;
     align-items: center;
+    color: #060a24;
   }
   .fTexto {
     font-family: "IBM Plex Mono";
-    color: #060a24;
+    
     word-spacing: ;
     flex: 1;
     padding: 1rem;
@@ -658,11 +650,7 @@ footer {
     opacity: 1;
     visibility: visible;
   }
-  .header #nav-check:focus ~ .nav-toggler {
-    /*
-     box-shadow: 0 0 15px #000000;
-     */
-  }
+  
   .header .nav ul li a:hover {
     color: currentColor;
     text-decoration-line: none;
@@ -749,8 +737,7 @@ footer {
   }
 
   /*iframes***********************************************/
-  .iframes {
-  }
+
   .i_container1 {
     display: flex;
     flex-direction: column;
@@ -896,8 +883,7 @@ footer {
     color: white;
     font-family: "IBM Plex Sans", sans-serif;
   }
-  .novButton {
-  }
+
   .novedades button {
     border: none;
     background-color: #00f3bb;
@@ -935,22 +921,23 @@ footer {
     max-width: ;
     flex: 1;
     justify-content: flex-end;
+   
   }
   .fLogo {
     padding-left: ;
     max-width: 100%;
+
   }
   .footerLogo svg {
+    color: black;
     width: 20px;
     height: 20px;
     padding: 1rem;
-    fill: currentColor; /*con esto dejamos q el svg se pueda editar*/
-    /*color:dark;*/
+    
   }
   .footerLogo svg:hover {
     color: #00f3bb !important; /*le cambiamos de color */
   }
-
 
   .episodios {
     position: relative;
